@@ -1,0 +1,26 @@
+﻿  3.cpp
+F:\windows\VS\VC\Tools\MSVC\14.43.34808\include\numeric(33,26): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных
+F:\windows\VS\VC\Tools\MSVC\14.43.34808\include\numeric(33,26): warning C4267:         with
+F:\windows\VS\VC\Tools\MSVC\14.43.34808\include\numeric(33,26): warning C4267:         [
+F:\windows\VS\VC\Tools\MSVC\14.43.34808\include\numeric(33,26): warning C4267:             _Ty=int
+F:\windows\VS\VC\Tools\MSVC\14.43.34808\include\numeric(33,26): warning C4267:         ]
+  (компиляция исходного файла "3.cpp")
+      F:\windows\VS\VC\Tools\MSVC\14.43.34808\include\numeric(33,26):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          E:\лабы\23-IQ\(2)ООП\О3\3\3.cpp(130,25):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>,int>(const _InIt,const _InIt,_Ty)"
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ]
+          F:\windows\VS\VC\Tools\MSVC\14.43.34808\include\numeric(42,17):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)"
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>,
+              _Fn=std::plus<void>
+          ]
+  
+  3.vcxproj -> E:\лабы\23-IQ\(2)ООП\О3\3\x64\Debug\3.exe
